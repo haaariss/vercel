@@ -14,6 +14,9 @@
         }
       }
     ],
+     "env": {
+    "STATIC_ROOT": "/var/task/staticfiles"
+  },
     "routes": [
       {
         "src": "/static/(.*)",
